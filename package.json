@@ -1,17 +1,14 @@
 {
   "name": "wingo-predictor-api",
   "version": "1.0.0",
-  "description": "Advanced AI/ML WinGo Prediction API",
-  "main": "api/predict.js",
+  "description": "WinGo Prediction API",
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
+    "dev": "vercel dev"
   },
   "dependencies": {
-    "node-fetch": "^2.7.0",
-    "brain.js": "^2.0.0-beta.23"
+    "node-fetch": "^2.7.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
